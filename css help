@@ -1,0 +1,77 @@
+/**/
+/*position
+
+sticky - once it is seen it remain on top when you scroll eg. navbar(first position have space occupied)
+fixed - it is fixed to a position once you scroll (no space occupied)
+absolute - it remain in the same position, not moving when you scroll (no space occupied)
+relative - it is relative positioned as his parent, remain in the same position (have space occupied)
+
+z-index - determines witch could be above the other one (the biggest is above)
+*/
+
+/**/
+/*display
+
+inline - could set an non-inline element to be inline
+inline-block - could arrange more block elements in the same line
+block - take the container width, but you could modify the height
+
+flex (parent)
+justify-content ->arrange horizontal(parent)
+align-items ->arrange vertical(parent)
+flex-direction:column -> arrange on a single line vertical(parent)
+flex-wrap(parent)
+align-content->arrange both horizontal and vertical(parent)
+flex-shrink ->not change the size(child)
+flex-grow: 1 ->change the size when stretch the screen(child)
+align-self ->align a single child
+order: 1 (child)
+
+*/
+
+/**/
+/*float
+right/left - need to specify element width
+
+ */
+
+/**/
+/*clear
+left/right/both/none - you could put all the elements witch are floating wrong in another place
+
+ */
+
+/**/
+/*box model
+
+box-sizing: content-box; -> normal way
+box-sizing: border-box; -> all the paddings and borders included
+
+center content
+margin: 0 auto;
+width: 400px;
+
+overflow
+overflow-x/overflow-y
+hidden/scroll - used for the content witch does not fit in the box
+
+*/
+
+/**/
+/*
+visibility
+hidden - not there, but took place
+
+display
+none - not there, no place taken
+ */
+
+/* CSS selection
+.class .subclass sau .class > .subclass - select all subclasses with "subclass" name
+.class1.class2 - select all elements with both "class1" and "class2" classes
+.class1, .class2 - select all elements with one of the class
+p.class1 - all p with class "class1"
+div > p - all p elements with div parent
+div + p - first p element after the div
+p ~ ul - all ul element preceded by p
+ */

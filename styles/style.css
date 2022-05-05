@@ -1,0 +1,71 @@
+@import "normalize.css";
+
+html {
+   font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    height: fit-content;
+    margin: 1rem 0;
+}
+
+main {
+    height: 80%;
+}
+
+section {
+    height: 8%;
+}
+
+h1 {
+    font-family: 'Square Peg' , cursive;
+    font-size: 6rem;
+    background-color: #c3fffc;
+    /*background-image: conic-gradient(rgba(108,153,150,0.36), #3c605d,rgba(108,153,150,0.36));*/
+    padding: 1.5rem;
+    margin: 1rem auto;
+    /*width: fit-content;*/
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    height: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.pancakes-link, .waffles-link {
+    display: inline-block;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #6c9996;
+    font-size: 2rem ;
+    font-weight: 600;
+    padding: 1rem;
+    border-top: 0.3rem solid #355855;
+    border-bottom: 0.3rem solid #355855;
+    line-height: 2rem;
+}
+
+a:hover {
+    color: #355855;
+}
