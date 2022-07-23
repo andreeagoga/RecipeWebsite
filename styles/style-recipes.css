@@ -19,6 +19,8 @@ section {
 main {
     margin: 1rem;
     height: 47%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 article {
@@ -26,13 +28,11 @@ article {
 }
 
 #description {
-    display: inline-block;
+    width: 100%;
 }
 
 #ingredients, #steps {
-    display: inline-block;
     box-sizing: border-box;
-    float: left;
 }
 
 #ingredients {
@@ -54,4 +54,9 @@ a {
     float: right;
 }
 
+ul, ol li {
+    list-style-type: none;
+    /*list-style-image: url("../images/strawberry-bullet.png");*/
+    margin: 0;
+}
 

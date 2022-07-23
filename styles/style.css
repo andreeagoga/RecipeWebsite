@@ -36,13 +36,13 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    padding-left: 1rem;
+}
+
 ul {
     padding: 0;
     height: 100%;
-}
-
-ul li {
-    list-style-type: none;
 }
 
 .pancakes-link, .waffles-link {
